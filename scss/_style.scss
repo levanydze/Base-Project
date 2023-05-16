@@ -1,0 +1,52 @@
+//   ====== START Header - Footer ======  //
+// START ELEMENTS
+.overlayImg {
+  position: absolute;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+.undermenu {
+  height: 50px;
+  width: 100%;
+}
+.mycontainer {
+  width: 96%;
+  margin: 0 auto;
+  max-width: 1350px;
+}
+// END ELEMENTS
+
+//   ====== START History  ======  //
+body {
+  .overallStory {
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+
+    h3 {
+      font-size: 35px;
+      font-weight: bold;
+      padding-bottom: 30px;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    p {
+      font-size: 25px;
+      font-weight: 100;
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+}
+//   ====== END   History ======  //
