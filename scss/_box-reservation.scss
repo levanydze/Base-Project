@@ -1,0 +1,68 @@
+//   ====== START  Reservation ======  //
+
+.reservation {
+  width: 100%;
+  .reservationWrapper {
+    margin: 40px auto;
+    width: 80%;
+    max-width: 500px;
+    .reservationHead {
+      text-align: center;
+      border-bottom: 2px solid $Dark;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      padding-top: 40px;
+      h3 {
+        font-size: 25px;
+        font-weight: bold;
+      }
+    }
+    .reservationBody {
+      display: flex;
+      flex-flow: column;
+      margin: 0 auto;
+
+      .reservationText {
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        h4 {
+          font-size: 18px;
+          font-weight: bold;
+          padding-bottom: 30px;
+        }
+      }
+      .reservationMap {
+        width: 80%;
+        margin: 0 auto;
+        height: 300px;
+      }
+    }
+  }
+}
+
+//   ====== END    Reservation ======  //
+
+
+
+
+
+
+// <!-- START Reservation -->
+//   <div class="reservation">
+//     <div class="reservationWrapper">
+//       <div class="reservationHead">
+//         <h3>Contact information</h3>
+//       </div>
+//       <div class="reservationBody">
+//         <div class="reservationText">
+//           <h4>info@ChaCha.com</h4>
+//           <h4>0707174030</h4>
+//         </div>
+//         <div class="reservationMap">
+//         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6226.828782664931!2d-9.1496643!3d38.708294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd193479567ac66d%3A0x3eef4fe30fcc5385!2sDelfina-Cantina%20Portuguesa!5e0!3m2!1sen!2sse!4v1679656053134!5m2!1sen!2sse" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+//         </div>
+//       </div>
+//     </div>
+//   </div>
+// <!-- END Reseration -->
